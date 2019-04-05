@@ -1,4 +1,4 @@
-import * as request from 'request';
+const request = require('request');
 
 module.exports = (req, res) => {
     const event = req.body.event;
